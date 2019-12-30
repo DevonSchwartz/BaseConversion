@@ -132,4 +132,4 @@ def dec_to_base(dec,base):
 decimal = eval(input('What decimal would you like to convert: '))
 base = eval(input('What base would you like to convert it to?: '))
 amount = dec_to_base(decimal,base)
-print (dec_to_base(decimal,base))
+print ("This is your converted total:", str(amount))
